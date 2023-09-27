@@ -1,0 +1,77 @@
+.start{
+
+    background: #979797;
+   padding: 80px 0;
+
+    &__content{
+        justify-content: space-between;
+        
+    }
+
+    &__title{
+        max-width: 510px;
+       h3{
+        color: #4A4A4A;
+        font-family: $font-title;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 121%;
+        letter-spacing: 0.25px;
+        margin-bottom: 15px;
+       }
+       p{
+        color: #434A54;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+       }
+
+    }
+
+    &__form{
+
+        input{
+            padding: 1px 5px;
+            width: 275px;
+            color: #979797;
+            font-family: Titillium Web;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 43.56px; /* 242% */
+            letter-spacing: 0.25px;
+        }
+
+        button{
+
+            padding: 0 23px;
+            color: #FFF;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 43.56px; /* 242% */
+            letter-spacing: 0.25px;
+
+            border-radius: 0px 4px 4px 0px;
+            border: 1px solid rgba(0, 0, 0, 0.05);
+            background: #1D6FF3;
+            }
+    }
+}
+
+
+@media (max-width: 768px) {
+    .start{
+
+        &__title{
+             text-align: center;
+        }
+
+        &__content{
+            flex-direction: column;
+            row-gap: 45px;
+        }
+
+        
+    }
+    
+}
